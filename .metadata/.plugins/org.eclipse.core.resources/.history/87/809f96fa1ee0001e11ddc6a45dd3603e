@@ -1,0 +1,17 @@
+package pkg1;
+
+import java.io.File;
+
+public class Test3 {
+	
+	public static void main(String[] args) {
+		File f1= new File("names.txt");
+		Scanner sc1=new Scanner();
+		
+		String s1="Dear $name,  You have been appointed as Centre Head at $location with $salary.  Please report for duty on $date";
+		String s2= s1.replace("$name" ,"Pritam").replace("$location", "Banglore");
+		System.out.println(s1);
+		System.out.println(s2);
+	}
+
+}

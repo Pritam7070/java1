@@ -1,0 +1,13 @@
+package pkg1;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		
+		String s1="Dear $name,  You have been appointed as Centre Head at $location with $salary.  Please report for duty on $date";
+		String s2= s1.replace("$name" ,"Pritam");
+		System.out.println(s1);
+		System.out.println(s2);
+	}
+
+}
