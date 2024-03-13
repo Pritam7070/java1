@@ -1,7 +1,6 @@
 package pkg1;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -16,6 +15,7 @@ public class Test3 {
 		String name1 = "";
 		String location1 ="";
 		String salary1="";
+		String date1 ="";
 		String[] arr1 ;
 		
 		for(int i = 0;i<10;i++) {
@@ -24,7 +24,8 @@ public class Test3 {
 			name1 = arr1[0];
 			location1 =arr1[2];
 			salary1 = arr1[1];
-			String s2= s1.replace("$name" ,name1).replace("$location", location1);
+			date1 = arr1[3];
+			String s2= s1.replace("$name" ,name1).replace("$location", location1).replace("$date",date1).replace("$salary", salary1);
 			System.out.println(s2);
 		}
 		
