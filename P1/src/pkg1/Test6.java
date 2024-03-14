@@ -1,7 +1,6 @@
 package pkg1;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 import java.io.FileWriter;
@@ -37,6 +36,6 @@ public class Test6 {
 			sepWords(i);
 		}
 		
-		}
+	}
 
 }

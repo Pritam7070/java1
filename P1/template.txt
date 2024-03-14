@@ -1,0 +1,1 @@
+Dear $name,  You have been appointed as Centre Head at $location with $salary.  Please report for duty on $date
